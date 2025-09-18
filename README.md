@@ -1,7 +1,7 @@
 # Tamu Recipes — Recipe Blog
 
 
-**Live demo:** (Add your live URL after deploying)
+**Live demo:** [(https://vercel.com/vyona-njeris-projects/tamurecipes/CSvPoMtovFjrTmfWoHWQBHxijLec)]
 
 
 ## Project Overview
