@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tamu Recipes — Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Tamu Recipes</a>
+      <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="swahili.html">Swahili Recipes</a>
+        <a href="indian.html">Indian Recipes</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to Tamu Recipes</h1>
+        <p>Delicious simple recipes from East Africa, India, and more — cooked at home with love.</p>
+      </div>
+    </section>
+
+    <section class="slider container" aria-label="Featured recipes">
+      <div class="slides">
+        <div class="slide active">
+          <img src="images/pilauog.jpg" alt="Pilau">
+          <div class="slide-caption">
+            <h3>Pilau</h3>
+            <p>Fragrant rice with spices — a Swahili classic.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="images/samosa.jpg" alt="Samosa">
+          <div class="slide-caption">
+            <h3>Samosa</h3>
+            <p>Crispy triangular delights from the Indian kitchen.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="images/chapati.jpg" alt="Chapati">
+          <div class="slide-caption">
+            <h3>Chapati</h3>
+            <p>Soft flatbreads that pair with many dishes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <button id="prev">‹</button>
+        <button id="next">›</button>
+      </div>
+    </section>
+
+    <section class="featured container">
+      <h2>Featured Recipes</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="images/pilau.jpg" alt="Pilau">
+          <h3>Pilau</h3>
+          <p>Spiced rice for celebrations.</p>
+          <a href="swahili.html#pilau" class="btn">Read Recipe</a>
+        </article>
+        <article class="card">
+          <img src="images/samosa.jpg" alt="Samosa">
+          <h3>Samosa</h3>
+          <p>Crunchy snacks filled with spiced potatoes.</p>
+          <a href="indian.html#samosa" class="btn">Read Recipe</a>
+        </article>
+        <article class="card">
+          <img src="images/chapo.jpg" alt="Chapati">
+          <h3>Chapati</h3>
+          <p>Everyday flatbread — quick and tasty.</p>
+          <a href="swahili.html#chapati" class="btn">Read Recipe</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Tamu Recipes — made with ♥</p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

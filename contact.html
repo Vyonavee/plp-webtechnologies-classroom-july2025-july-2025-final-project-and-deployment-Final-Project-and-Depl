@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Tamu Recipes</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Tamu Recipes</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="swahili.html">Swahili Recipes</a>
+        <a href="indian.html">Indian Recipes</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h1>Contact</h1>
+    <p>Have a recipe suggestion or feedback? Send us a message!</p>
+
+    <form id="contactForm" class="contact-form" novalidate>
+      <label>
+        Name
+        <input type="text" id="name" name="name" required>
+      </label>
+
+      <label>
+        Email
+        <input type="email" id="email" name="email" required>
+      </label>
+
+      <label>
+        Message
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </label>
+
+      <button type="submit" class="btn">Send Message</button>
+      <p id="formFeedback" class="feedback" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Tamu Recipes</p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
